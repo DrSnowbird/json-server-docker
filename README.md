@@ -5,7 +5,6 @@
 * [Base Container Image: openkbs/jdk-mvn-py3](https://github.com/DrSnowbird/jdk-mvn-py3)
 * [Base Components: OpenJDK, Python 3, PIP, Node/NPM, Gradle, Maven, etc.](https://github.com/DrSnowbird/jdk-mvn-py3#components)
 
-
 # JSON REST API Server Docker Container
 To provide a JSON file with REST API NodeJS application
 
