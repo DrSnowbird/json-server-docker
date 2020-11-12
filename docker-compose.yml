@@ -1,0 +1,18 @@
+version: '3' 
+services:
+  json-server-docker:
+    image: openkbs/json-server-docker
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: json-server-docker
+    environment:
+      - USER_ID=${USER_ID:-1000}
+      - GROUP_ID=${GROUP_ID:-1000}
+    env_file:
+      - ./docker.env
+    ports:
+      - 3000:3000
+    volumes:
+      - ./app:/home/developer/app
+
